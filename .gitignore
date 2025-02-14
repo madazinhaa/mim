@@ -1,0 +1,33 @@
+# Arquivos de dependências e pacotes
+node_modules/
+vendor/
+
+# Arquivos de configuração sensíveis
+.env
+config.php
+
+# Cache e logs
+*.log
+cache/
+*.cache
+
+# Arquivos temporários do sistema
+.DS_Store
+Thumbs.db
+
+# Banco de dados local (se necessário)
+*.sqlite
+*.sqlite3
+
+# Diretórios de build e compilação
+dist/
+build/
+
+# Arquivos pessoais ou específicos do IDE
+.vscode/
+.idea/
+*.swp
+
+# Chaves SSH ou credenciais
+*.pem
+*.key

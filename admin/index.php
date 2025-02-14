@@ -1,6 +1,7 @@
 <?php
 session_start();
-include '../includes/conexao.php';
+include 'includes/conexao.php';
+require 'verifica_login.php';
 
 // Verifica se o usuário está logado
 if (!isset($_SESSION['admin'])) {
@@ -22,7 +23,7 @@ $result = $conn->query($sql);
 </head>
 <body>
     <h2>Painel de Administração - Posts</h2>
-    <a href="novo_post.php">Criar Novo Post</a>
+    <a href="new_post.php">Criar Novo Post</a>
     <hr>
 
     <?php
